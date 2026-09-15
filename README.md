@@ -1,2 +1,2 @@
-# Muti_view_grape_datasets
-MutiViewGrapeDatasets
+# MutiViewGrapeDatasets
+       A multi-view grape dataset was constructed by collecting data from grape targets under different occlusion conditions in real outdoor environments for training the action classification model. The data collection process consisted of two steps. First, the spherical workspace of camera motion was discretized into a finite number of grid regions (Regions), with the center of each region $R_i$ selected as the viewpoint sampling position. Second, the robotic arm sequentially moved a RealSense D435 depth camera mounted on its end effector to these sampling positions to acquire the RGB and depth images, together with the corresponding robot joint states. In total, the training set comprised 3087 viewpoints from 21 grape targets, while the test set comprised 441 viewpoints from 3 grape targets. Each viewpoint was associated with an RGB image, a depth image, and a robot joint state.
